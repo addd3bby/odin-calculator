@@ -1,0 +1,45 @@
+.container {
+  width: 460px;
+  height: 540px;
+  background-color: black;
+  border: 10px solid rgba(47, 47, 47, 1);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#display {
+  background-color: #b2b9b7;
+  margin: 5px auto;
+  font-size: 5.5em;
+  width: 97%;
+  height: 90px;
+  font-family: monospace;
+}
+
+.container button {
+  border-radius: 5%;
+  width: 98px;
+  height: 78px;
+  font-size: 2em;
+}
+
+.container button#zero {
+  width: 212px;
+}
+
+.container button.operand {
+  background-color: #217c7e;
+}
+
+.container button.clear,
+.container button.sign,
+.container button.percent {
+  background-color: dodgerblue;
+}
+
+.container button.operator,
+.container button.equals {
+  background-color: #ff8f1f;
+}
