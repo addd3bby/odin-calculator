@@ -1,5 +1,5 @@
 .container {
-  width: 460px;
+  width: 485px;
   height: 540px;
   background-color: black;
   border: 10px solid rgba(47, 47, 47, 1);
@@ -16,6 +16,10 @@
   width: 97%;
   height: 90px;
   font-family: monospace;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .container button {
@@ -26,7 +30,7 @@
 }
 
 .container button#zero {
-  width: 212px;
+  width: 218px;
 }
 
 .container button.operand {
